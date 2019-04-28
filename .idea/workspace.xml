@@ -38,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="189">
-                <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <first_editor relative-caret-position="428">
+                <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,7 +104,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="229" />
-    <option name="y" value="121" />
+    <option name="y" value="78" />
     <option name="width" value="1467" />
     <option name="height" value="954" />
   </component>
@@ -217,7 +217,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="121" width="1467" height="954" extended-state="0" />
+    <frame x="229" y="78" width="1467" height="954" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53481895" visible="true" weight="0.248023" />
@@ -270,8 +270,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <first_editor relative-caret-position="428">
+            <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
