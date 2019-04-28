@@ -15,6 +15,9 @@ Steps to create app on Twitter
      app usage:  brief description
      <go to tab - permissions> make sure access permissions: Read and Wrie
      <go to tab - keys and tokens> generate 4 keys: Consumer API keys (2), Access token & access token secret (2)
-5. Add the 2 keys to this app     
+5. Add the 2 keys to this app  
+          
+*Currently, when this app is run some tweets stream but there are intermittent errors:
+JSONObject["text"] not found.
      
      
