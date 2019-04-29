@@ -7,7 +7,7 @@ import twitter4j.TwitterException;
 import twitter4j.conf.ConfigurationBuilder;
 
 
-public class TwitterProduceMain {
+public class TwitterProducerMain {
     public static void main(String[] args) {
         TwitterStream twitterStream = createTwitterStream();
         twitterStream.addListener(createListener());
@@ -19,10 +19,10 @@ public class TwitterProduceMain {
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("JMTnfI9KRCFhkBVyeVM1iHWtb")
-                .setOAuthConsumerSecret("pbsTpba6LqIBkwbZCdkqxwPLAoPbOxYBI5elKnrklme1Pq3iY1")
-                .setOAuthAccessToken("181380630-nc6It6ZHp3CYsVL7DDaGg27tJv2APyvTQM5Cjm1S")
-                .setOAuthAccessTokenSecret("L1B6FlOqPZmxzixdLJA8smfRVaBOGI4pHpAdskQM3Gr0w");
+                .setOAuthConsumerKey("a")
+                .setOAuthConsumerSecret("b")
+                .setOAuthAccessToken("c")
+                .setOAuthAccessTokenSecret("d");
              //   .setJSONStoreEnabled(true);
 
         return new TwitterStreamFactory(cb.build()).getInstance();

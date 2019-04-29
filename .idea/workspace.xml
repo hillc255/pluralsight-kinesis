@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712efbeb-db7e-4192-8836-849fb8b15f0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProduceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProduceMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/kinesis/module2/TwitterProduceMain$TweetsStatusListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/kinesis/module2/TwitterProduceMain$TweetsStatusListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/kinesis/module2/TwitterProduceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pluralsight/kinesis/module2/TwitterProduceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProduceMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProducerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/kinesis/module2/TwitterProduceMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/kinesis/module2/TwitterProduceMain$TweetsStatusListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pluralsight/kinesis/module2/TwitterProduceMain.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,24 +28,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProduceMain.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProducerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="156">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-                <element signature="e#1852#1853#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -67,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TweetsStatusListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProduceMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProducerMain.java" />
       </list>
     </option>
   </component>
@@ -116,8 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,6 +144,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,8 +177,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TwitterProduceMain" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.kinesis.module2.TwitterProduceMain" />
+    <configuration name="TwitterProducerMain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.kinesis.module2.TwitterProducerMain" />
       <module name="pluralsight-kinesis" />
       <extension name="coverage">
         <pattern>
@@ -223,10 +214,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="132" y="1" width="1666" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53481895" visible="true" weight="0.14446831" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53481895" visible="true" weight="0.30440253" />
       <window_info id="Structure" order="1" sideWeight="0.46518105" side_tool="true" weight="0.26044568" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -235,7 +226,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55706215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5558376" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49943504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,19 +277,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TweetsStatusListener.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
+        <state relative-caret-position="1029">
           <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProduceMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/kinesis/module2/TwitterProducerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="156">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
           </folding>
         </state>
       </provider>
