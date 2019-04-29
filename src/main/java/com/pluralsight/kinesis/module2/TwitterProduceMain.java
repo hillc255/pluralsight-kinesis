@@ -19,11 +19,10 @@ public class TwitterProduceMain {
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("a")
-                .setOAuthConsumerSecret
-                        ("b")
-                .setOAuthAccessToken("c")
-                .setOAuthAccessTokenSecret("d");
+                .setOAuthConsumerKey("JMTnfI9KRCFhkBVyeVM1iHWtb")
+                .setOAuthConsumerSecret("pbsTpba6LqIBkwbZCdkqxwPLAoPbOxYBI5elKnrklme1Pq3iY1")
+                .setOAuthAccessToken("181380630-nc6It6ZHp3CYsVL7DDaGg27tJv2APyvTQM5Cjm1S")
+                .setOAuthAccessTokenSecret("L1B6FlOqPZmxzixdLJA8smfRVaBOGI4pHpAdskQM3Gr0w");
              //   .setJSONStoreEnabled(true);
 
         return new TwitterStreamFactory(cb.build()).getInstance();
@@ -43,14 +42,15 @@ public class TwitterProduceMain {
                     System.out.println(tweetJson);
                     System.out.println(status.getUser());
                     System.out.println(status.getText());
-                }
-            } catch (TwitterException e) {
-                e.printStackTrace();
+                    }
+                } catch (TwitterException e) {
+                //Hide stacktrace
+               // e.printStackTrace();
             }
 
-            }
-            public void onException(Exception e){
-                e.printStackTrace();
-            }
-     }
+        }
+        public void onException(Exception e){
+            e.printStackTrace();
+        }
+    }
 }
