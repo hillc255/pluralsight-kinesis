@@ -12,7 +12,7 @@ import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 
 
-public class TwitterProduceMain {
+public class TwitterProducerMain {
     public static void main(String[] args) {
         TwitterStream twitterStream = createTwitterStream();
         twitterStream.addListener(createListener());
@@ -93,7 +93,7 @@ public class TwitterProduceMain {
                     });
                 }
             } catch (TwitterException e){
-                e.printStackTrace();
+               e.printStackTrace();
             }
         }
         public void onException(Exception ex){
