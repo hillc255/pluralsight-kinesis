@@ -65,7 +65,7 @@ public class TwitterProducerMain {
                     byte[] tweetBytes = tweetJson.getBytes(StandardCharsets.UTF_8);
                     String partitionKey = status.getLang();
                     ListenableFuture<UserRecordResult> f = kinesisProducer.addUserRecord(
-                            "tweets-stream",
+                            "tweets-stream-chill",
                             partitionKey,
                             ByteBuffer.wrap(tweetBytes)
                     );
@@ -93,7 +93,7 @@ public class TwitterProducerMain {
                     });
                 }
             } catch (TwitterException e){
-               e.printStackTrace();
+             //  e.printStackTrace();
             }
         }
         public void onException(Exception ex){
