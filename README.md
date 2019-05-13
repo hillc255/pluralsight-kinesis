@@ -46,3 +46,10 @@ II. Create Kinesis
 * TwitterConsumerMain
 * TwitterProducerMain
      
+### Part IV: Implementing Advanced Kinesis Consumers
+1. Kinesis Connector Library
+2. Creating a Pipeline with Kinesis
+
+*Create AWS S3 bucket with name "pluralsight-kinesis-course"
+*Run ConnectorsMain.java
+*In AWS - go into buckets and see a file - select checkbox and download - inspect file

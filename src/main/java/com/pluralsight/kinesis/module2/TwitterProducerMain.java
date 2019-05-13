@@ -23,11 +23,10 @@ public class TwitterProducerMain {
     private static TwitterStream createTwitterStream(){
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("a")
-                .setOAuthConsumerSecret("b")
-                .setOAuthAccessToken("c")
-                .setOAuthAccessTokenSecret("d");
-
+                .setOAuthConsumerKey("2QiXTtcOKP11XmodUD7zayAaA")
+                .setOAuthConsumerSecret("w6WKRs2SPUhZdBTqLQGa04scgrSpA1Xb54pcdrX4TXk0K4IBug")
+                .setOAuthAccessToken("181380630-rpDeLXF0FfZTK0vgRrYr7VW2AUMSenQU9aqPH8Ad")
+                .setOAuthAccessTokenSecret("41Zr1nC40UQoisLlTYarW6eFoeEeegyAUE5fSRDQxH44q");
         return new TwitterStreamFactory(cb.build()).getInstance();
     }
 

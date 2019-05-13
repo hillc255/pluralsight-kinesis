@@ -33,7 +33,7 @@ public class TweetsProcessor implements IRecordProcessor {
         try {
             checkpointer.checkpoint();
         }catch (InvalidStateException e) {
-            //Table does not exit
+            // Table exits
             e.printStackTrace();
         }catch (ShutdownException e){
             //Two processors are processing the same shard
