@@ -40,3 +40,9 @@ II. Create Kinesis
 3. Run Java Kinesis-connect branch   
      
      
+* See Tweets consumed after adding below - run TwitterProducerMain then run TwitterConsumerMain
+* TweetsProcessor     
+* TweetsProcessorFactory
+* TwitterConsumerMain
+* TwitterProducerMain
+     

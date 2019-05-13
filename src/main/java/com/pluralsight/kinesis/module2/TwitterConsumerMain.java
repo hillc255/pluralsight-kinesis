@@ -11,7 +11,8 @@ public class TwitterConsumerMain {
     public static void main(String... args){
         KinesisClientLibConfiguration config = new KinesisClientLibConfiguration(
                 "tweets-processor",
-                "tweets-stream",
+                //initially "tweets-stream"
+                "tweets-stream-chill",
                 new DefaultAWSCredentialsProviderChain(),
                 "worker-1"
         );
