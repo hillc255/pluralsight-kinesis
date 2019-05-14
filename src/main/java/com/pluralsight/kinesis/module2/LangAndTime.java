@@ -25,7 +25,7 @@ public class LangAndTime {
 
     @Override
     public int hashCode(){
-        int result = language !=null ? language.hashCode() : 0;
+        int result = language != null ? language.hashCode() : 0;
         result = 31 * result + (publicationTime != null ? publicationTime.hashCode() : 0);
         return result;
     }

@@ -72,7 +72,7 @@ public class TweetsCounter implements IRecordProcessor {
     }
 
     private void saveStatistics() {
-        tweetsOfLanguage.forEach((language,count) ->{
+        tweetsOfLanguage.forEach((language, count) -> {
             LangAndTime langAndTime = new LangAndTime();
             langAndTime.setLanguage(language);
             langAndTime.setPublicationTime(
