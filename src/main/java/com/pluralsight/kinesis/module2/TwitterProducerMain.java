@@ -98,4 +98,8 @@ public class TwitterProducerMain {
         public void onException(Exception ex){
             ex.printStackTrace(); }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> kinesis-connect

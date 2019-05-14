@@ -52,4 +52,8 @@ II. Create Kinesis
 
 *Create AWS S3 bucket with name "pluralsight-kinesis-course"
 *Run ConnectorsMain.java
+<<<<<<< HEAD
 *In AWS - go into buckets and see a file - select checkbox and download - inspect file
+=======
+*In AWS - go into buckets and see a file - select checkbox and download - inspect file
+>>>>>>> kinesis-connect
