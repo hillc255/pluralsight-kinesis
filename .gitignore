@@ -12,6 +12,7 @@
 /data
 /src/main/javasdl
 node_modules
+.idea/workspace.xml
 
 # Ignore Gradle GUI config
 gradle-app.setting
