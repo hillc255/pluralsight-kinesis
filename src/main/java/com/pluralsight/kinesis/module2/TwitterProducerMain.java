@@ -20,7 +20,7 @@ public class TwitterProducerMain {
     }
 
     //read and write permissions
-    private static TwitterStream createTwitterStream(){
+    private static TwitterStream createTwitterStream() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
                 .setOAuthConsumerKey("2QiXTtcOKP11XmodUD7zayAaA")
@@ -30,18 +30,18 @@ public class TwitterProducerMain {
         return new TwitterStreamFactory(cb.build()).getInstance();
     }
 
-    private static RawStreamListener createListener(){
+    private static RawStreamListener createListener() {
         //Kinesis producer created
         KinesisProducer kinesisProducer = createKinesisProducer();
         return new TweetsStatusListener(kinesisProducer);
     }
 
     //Kinesis configuration
-    private static KinesisProducer createKinesisProducer(){
+    private static KinesisProducer createKinesisProducer() {
         KinesisProducerConfiguration config = new KinesisProducerConfiguration()
                 .setRequestTimeout(6000)
                 .setRecordMaxBufferedTime(15000)
-                .setRegion("us-east-1") ;
+                .setRegion("us-east-1");
         return new KinesisProducer(config);
     }
 
@@ -51,13 +51,13 @@ public class TwitterProducerMain {
         private KinesisProducer kinesisProducer;
         private int count;
 
-        public TweetsStatusListener(KinesisProducer kinesisProducer){
+        public TweetsStatusListener(KinesisProducer kinesisProducer) {
             this.kinesisProducer = kinesisProducer;
         }
 
-        public void onMessage(String tweetJson){
-            if (count++ % 5 !=0) return;
-            try{
+        public void onMessage(String tweetJson) {
+            if (count++ % 5 != 0) return;
+            try {
                 Status status = TwitterObjectFactory.createStatus(tweetJson);
                 //if new tweet
                 if (status.getUser() != null) {
@@ -91,15 +91,13 @@ public class TwitterProducerMain {
 
                     });
                 }
-            } catch (TwitterException e){
-             // e.printStackTrace();
+            } catch (TwitterException e) {
+                // e.printStackTrace();
             }
         }
-        public void onException(Exception ex){
-            ex.printStackTrace(); }
+
+        public void onException(Exception ex) {
+            ex.printStackTrace();
+        }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> kinesis-connect

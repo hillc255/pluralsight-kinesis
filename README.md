@@ -38,22 +38,18 @@ II. Create Kinesis
 1. Kinesis > Create Kinesis stresm:  tweet-stream
 2. Number of shards 1
 3. Run Java Kinesis-connect branch   
-     
-     
+        
 * See Tweets consumed after adding below - run TwitterProducerMain then run TwitterConsumerMain
 * TweetsProcessor     
 * TweetsProcessorFactory
 * TwitterConsumerMain
 * TwitterProducerMain
      
-### Part IV: Implementing Advanced Kinesis Consumers
+### Part IV. Implementing Advanced Kinesis Consumers
 1. Kinesis Connector Library
 2. Creating a Pipeline with Kinesis
 
 *Create AWS S3 bucket with name "pluralsight-kinesis-course"
 *Run ConnectorsMain.java
-<<<<<<< HEAD
 *In AWS - go into buckets and see a file - select checkbox and download - inspect file
-=======
-*In AWS - go into buckets and see a file - select checkbox and download - inspect file
->>>>>>> kinesis-connect
+
